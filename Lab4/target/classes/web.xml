@@ -1,0 +1,10 @@
+<web-app>
+    <servlet>
+        <servlet-name>CalculateDistanceServlet</servlet-name>
+        <servlet-class>CalculateDistanceServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CalculateDistanceServlet</servlet-name>
+        <url-pattern>/calculateDistance</url-pattern>
+    </servlet-mapping>
+</web-app>
